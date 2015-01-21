@@ -1,0 +1,32 @@
+ html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        margin: 0;
+        color:#fff;
+    }
+    #map {
+
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        width: auto;
+        height: auto;
+    }
+
+    .dateTimeBox {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        width: 300px;  
+    }
+    .box {
+        background:rgba(0, 0, 0, 0.61);
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
