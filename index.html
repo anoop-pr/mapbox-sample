@@ -4,12 +4,18 @@
 	<meta charset="UTF-8">
 	<title>MapBox</title>
 	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.css' rel='stylesheet' />
-	<link href='style.css' rel='stylesheet' />
+	<link href='css/style.css' rel='stylesheet' />
+	<link href='css/gritter.css' rel='stylesheet' />
 </head>
 <body>
 	
 	<div id="home">
-		<button class="load_data">Click Here!</button>
+		<h1>NYC Highway Analytics</h1>
+		<p class="content">This visualization displays the data for one random NYC yellow taxi on a single day in 2013. See where it operated, how much money it made, and how busy it was over 24 hours.</p>
+		<div class="btn-holder">
+			<a class="btn load_data" href="javascript:void(0);">Start</a>
+		</div>
+		<img src="images/header-logo.png" alt="City Logo">
 	</div>
 	<div id="map"></div>
 
@@ -18,9 +24,10 @@
 	</div>
     
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script src="underscore-min.js"></script>
-	<script src="moment.min.js"></script>
 	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js'></script>
-	<script src='script.js'></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/gritter.min.js"></script>
+	<script src='js/script.js'></script>
 </body>
 </html>
